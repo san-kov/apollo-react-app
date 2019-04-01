@@ -1,0 +1,16 @@
+.profile {
+  margin: 10px;
+
+  > h1 {
+    // background: $dark-teal;
+    color: $black;
+    padding: 5px;
+    margin: 0;
+  }
+  > .loader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+}

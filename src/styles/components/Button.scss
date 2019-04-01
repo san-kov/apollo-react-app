@@ -1,0 +1,25 @@
+.btn {
+  background: $primary;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  padding: 5px;
+  outline: none;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.sub {
+  color: white;
+  background: $green;
+}
+
+.unsub {
+  color: white;
+  background: $yellow;
+}

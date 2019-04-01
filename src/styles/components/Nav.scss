@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  align-items: center;
+  background: $light-teal;
+  a {
+    margin: 5px;
+    text-decoration: none;
+    color: $light;
+  }
+  input {
+    margin-left: 10px;
+    border: 0;
+    padding: 3px;
+  }
+}

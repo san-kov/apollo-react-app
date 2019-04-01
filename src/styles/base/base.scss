@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-family: 'Mukta';
+  height: 100vh;
+}
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
+
+h1 {
+  font-size: 25px;
+}

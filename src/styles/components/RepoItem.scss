@@ -1,0 +1,32 @@
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 2px rgba(161, 161, 161, 0.5);
+  // border: 1px solid $primary;
+  border-top: 0;
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+  }
+  > .repo-item__title {
+    // background: $light-teal;
+    height: 30px;
+    color: $black;
+    div {
+      margin: 0 3px 0 5px;
+    }
+    > .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .icon {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+}

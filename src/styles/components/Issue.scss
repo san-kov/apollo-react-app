@@ -1,0 +1,34 @@
+.issues {
+  margin: 10px;
+  > h1 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+  }
+}
+.issue {
+  box-shadow: 0 0 2px rgba(161, 161, 161, 0.5);
+  padding: 10px;
+  h1 {
+    border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+  }
+}
+.issue-content {
+  pre {
+    background: rgb(248, 248, 248);
+    padding: 5px;
+  }
+}
+
+.badge {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.open {
+  background: $red;
+}
+
+.closed {
+  background: $green;
+}
