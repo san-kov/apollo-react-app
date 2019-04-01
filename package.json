@@ -1,0 +1,52 @@
+{
+  "name": "apollo-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.11",
+    "@types/node": "11.11.4",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.3",
+    "@types/react-router-dom": "^4.3.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "apollo-link-retry": "^2.2.13",
+    "dotenv": "^7.0.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "immer": "^2.1.4",
+    "loaders.css": "^0.1.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
+    "react-dom": "^16.8.4",
+    "react-icons": "^3.5.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-spinner": "^0.2.7",
+    "react-spinners": "^0.5.3",
+    "typescript": "3.3.4000"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "apollo:generate": "apollo codegen:generate --target typescript --excludes=C:/Users/User/Desktop/coding/apollo-ts/src/node_modules/* --includes=C:/Users/User/Desktop/coding/apollo-ts/src/queries/*.ts --endpoint https://api.github.com/graphql --header \"Authorization: Bearer\" --tagName=gql --outputFlat src/generated "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "apollo": "^2.6.2"
+  }
+}
